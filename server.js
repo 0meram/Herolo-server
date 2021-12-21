@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 // app.use(cors());
-// app.use("/search", require("./routes/search"));
+app.use("/search", require("./routes/search"));
 
 app.get("/", (req, res) => {
 	res.send(`<h1>Herolo Server i automation</h1>`);
