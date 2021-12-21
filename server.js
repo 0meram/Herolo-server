@@ -7,7 +7,7 @@ app.use(express.json());
 // app.use("/search", require("./routes/search"));
 
 app.get("/", (req, res) => {
-	res.send(`<h1>Herolo Server i have automation</h1>`);
+	res.send(`<h1>Herolo Server i automation</h1>`);
 });
 
 app.listen(PORT, () => {
